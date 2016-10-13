@@ -5,4 +5,5 @@ RUN apt-get update && apt-get install -y \
     libnotify-bin \
 	&& npm install -g gulp \
 	&& npm install -g browserify \
-	&& npm install -g forever
+	&& npm install -g forever \
+	&& npm install -g yarn
